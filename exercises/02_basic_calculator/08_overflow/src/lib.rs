@@ -15,6 +15,8 @@ pub fn factorial(n: u32) -> u32 {
 
 #[cfg(test)]
 mod tests {
+    use std::u32;
+
     use crate::factorial;
 
     #[test]
